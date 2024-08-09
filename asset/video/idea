@@ -1,0 +1,9 @@
+<video
+  src="https://cdn.replit.com/dotcom/c2d906bc-f1f5-11ee-a951-0242ac120002.webm"
+  loop=""
+  muted=""
+  playsinline=""
+  class="w-full"
+  autoplay
+  style="width: 300px"
+></video>
