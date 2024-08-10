@@ -75,3 +75,4 @@ let textObserver = new IntersectionObserver(
   { root: null, threshold: 0 }
 );
 textOverlay.forEach((text) => textObserver.observe(text));
+//END
