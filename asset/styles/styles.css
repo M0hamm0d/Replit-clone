@@ -254,7 +254,6 @@ header {
   width: 100%;
 }
 .collab {
-  grid-colun: span 8 / span 8;
   grid-column-start: 2;
   width: 100%;
 }

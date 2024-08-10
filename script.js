@@ -5,7 +5,6 @@ const container = document.querySelector(".container");
 const header = document.querySelector("header");
 
 let lastScroll = 0;
-// console.log("prevScrollpos" + " " + prevScrollpos);
 
 window.onscroll = function () {
   let currentScrollPos = window.pageYOffset;
@@ -53,8 +52,6 @@ section.forEach((sec) => {
 let imageObserver = new IntersectionObserver(
   function (entries) {
     entries.forEach((img) => {
-      //console.log(img.target);
-
       if (img.isIntersecting) {
         img.target.src = img.target.dataset.src;
         img.target.addEventListener("load", function () {
