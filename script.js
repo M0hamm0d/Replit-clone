@@ -1,3 +1,4 @@
+//start
 const imgOverlay = document.querySelectorAll(".img-overlay");
 const section = document.querySelectorAll(".section");
 const textOverlay = document.querySelectorAll(".text-overlay");
